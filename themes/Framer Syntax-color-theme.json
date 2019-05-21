@@ -17,7 +17,7 @@
     "textLink.foreground": "#00AEFF",
     "progressBar.background": "#00AEFF",
     "pickerGroup.foreground": "#00AEFF",
-    "tab.activeBorder": "#00AEFF",
+    "tab.activeBorder": "#0bf",
     "notificationLink.foreground": "#00AEFF",
 
     "badge.foreground": "#fff",
@@ -43,7 +43,7 @@
     "dropdown.border": "#2D2D2D",
     "dropdown.foreground": "#fff",
 
-    "editor.background": "#111",
+    "editor.background": "#181818",
 
     "editor.foreground": "#fff",
 
@@ -57,8 +57,8 @@
 
     "editor.inactiveSelectionBackground": "#333",
 
-    "editor.lineHighlightBackground": "#333",
-    "editor.lineHighlightBorder": "#333",
+    "editor.lineHighlightBackground": "#151515",
+    "editor.lineHighlightBorder": "#151515",
     "editor.rangeHighlightBackground": "#222",
 
     "editor.selectionBackground": "#333",
@@ -76,7 +76,7 @@
     "editorError.border": "#2D2D2D",
     "editorError.foreground": "#e27e8d",
 
-    "editorGutter.background": "#111",
+    "editorGutter.background": "#181818",
     "editorGutter.deletedBackground": "#e27e8d",
     "editorGutter.modifiedBackground": "#111",
 
@@ -89,7 +89,7 @@
 
     "editorHoverWidget.background": "#111",
     "editorHoverWidget.border": "#2d2d2d",
-    "editorIndentGuide.background": "#111",
+    "editorIndentGuide.background": "#181818",
     "editorLineNumber.foreground": "#333",
     "editorLineNumber.activeForeground": "#777",
     "editorLink.activeForeground": "#888",
@@ -177,7 +177,7 @@
     "scrollbarSlider.hoverBackground": "#333",
 
     "selection.background": "#fff",
-    
+
     "sideBar.background": "#111",
     "sideBar.border": "#111",
     "sideBar.foreground": "#888",
@@ -195,11 +195,11 @@
     "statusBarItem.activeBackground": "#09f",
     "statusBarItem.hoverBackground": "#333",
 
-    "tab.activeBackground": "#111",
+    "tab.activeBackground": "#181818",
     "tab.activeForeground": "#fff",
-    "tab.border": "#111",
-    "tab.inactiveBackground": "#111",
-    "tab.inactiveForeground": "#888",
+    "tab.border": "#151515",
+    "tab.inactiveBackground": "#151515",
+    "tab.inactiveForeground": "#333",
     "tab.unfocusedActiveForeground": "#888",
     "tab.unfocusedInactiveForeground": "#888",
 
@@ -209,7 +209,7 @@
     "textLink.activeForeground": "#00AEFF",
     "textPreformat.foreground": "#888",
     "textSeparator.foreground": "#888",
-    "titleBar.activeBackground": "#111",
+    "titleBar.activeBackground": "#181818",
     "titleBar.activeForeground": "#fff",
     "titleBar.inactiveBackground": "#111",
     "titleBar.inactiveForeground": "#777",
@@ -230,14 +230,14 @@
       "name": "Constant",
       "scope": "constant",
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#FD886B"
       }
     },
     {
       "name": "Entity",
       "scope": "entity",
       "settings": {
-        "foreground": "#00AEFF"
+        "foreground": "#fc6"
       }
     },
     // Typescript
@@ -245,7 +245,7 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#0bf"
       }
     },
     // Typescript
@@ -253,14 +253,14 @@
       "name": "Keywords",
       "scope": ["keyword.control.conditional", "keyword.control.import"],
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#0bf"
       }
     },
     {
       "name": "Punctuation",
       "scope": "punctuation",
       "settings": {
-        "foreground": "#888"
+        "foreground": "#999"
       }
     },
     {
@@ -281,42 +281,42 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#fff"
+        "foreground": "#ACDDFD"
       }
     },
     {
       "name": "Punctuation Template Expression",
       "scope": "punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#e4aefa"
       }
     },
     {
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#8df"
+        "foreground": "#32CCDC"
       }
     },
     {
       "name": "Storage Type Arrow Function",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#fff"
       }
     },
     {
       "name": "String",
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#91DD64"
+        "foreground": "#bb88ff"
       }
     },
     {
       "name": "String Template",
       "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
-        "foreground": "#91DD64"
+        "foreground": "#bb88ff"
       }
     },
     {
@@ -337,7 +337,7 @@
       "name": "[JAVASCRIPT JSX] React Class",
       "scope": ["support.class.component.js"],
       "settings": {
-        "foreground": "#00AEFF"
+        "foreground": "#fc6"
       }
     },
     {
@@ -448,7 +448,7 @@
       "name": "[CSS] - support constant",
       "scope": ["support.constant.property-value.css"],
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#fc6"
       }
     },
     {
@@ -485,7 +485,7 @@
       "name": "[CSS] - Variable",
       "scope": ["source.css variable", "source.stylus variable"],
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#fc6"
       }
     },
     // HTML ----------------------------------------------------------------------
@@ -493,7 +493,7 @@
       "name": "[HTML] - Entity",
       "scope": ["entity.other"],
       "settings": {
-        "foreground": "#8df"
+        "foreground": "#ACDDFD"
       }
     },
     {
@@ -513,7 +513,7 @@
       "name": "[HTML] - Keywords",
       "scope": ["punctuation.definition.keyword", "keyword.control"],
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#0bf"
       }
     },
     {
@@ -549,26 +549,28 @@
     },
     {
       "name": "[HTML] - Quotes",
-      "scope":
-        "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
-        "foreground": "#91DD64"
+        "foreground": "#bb88ff"
       }
     },
 
     // Javascript ----------------------------------------------------------------------
     {
       "name": "[JAVASCRIPT] - Numbers",
-      "scope": "source.js constant",
+      "scope": [
+        "constant.language.import-export-all.tsx",
+        "source.js constant"
+      ],
       "settings": {
-        "foreground": "#a8f"
+        "foreground": "#FD886B"
       }
     },
     {
       "name": "[JAVASCRIPT] - Keywords",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#f6b"
+        "foreground": "#999"
       }
     },
     {
@@ -583,35 +585,25 @@
       "name": "[JAVASCRIPT] - Storage Type Function",
       "scope": "source.js storage.type.function",
       "settings": {
-        "foreground": "#fff"
+        "foreground": "#32CCDC"
       }
     },
     {
       "name": "[JAVASCRIPT] - Keywords",
       "scope": [
+        "keyword.control.as.tsx",
         "source.js punctuation.definition.keyword",
         "source.js keyword.control"
       ],
       "settings": {
-        "foreground": "#FFD14A"
-      }
-    },
-    {
-      "name": "[JAVASCRIPT] - Keywords",
-      "scope": [
-        "source.js punctuation.definition.keyword",
-        "source.js keyword.control"
-      ],
-      "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#0bf"
       }
     },
     {
       "name": "[JAVASCRIPT] - Variable Language",
-      "scope":
-        "variable.language, entity.name.type.class.js, meta.tag.js, entity.name.tag.js",
+      "scope": "variable.language, entity.name.type.class.js, meta.tag.js, entity.name.tag.js",
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#fc6"
       }
     },
     {
@@ -623,7 +615,21 @@
         "meta.import.js"
       ],
       "settings": {
-        "foreground": "#FFD14A"
+        "foreground": "#eee"
+      }
+    },
+    {
+      "name": "[JAVASCRIPT] - Variable Object",
+      "scope": ["variable.other.object.js", "variable.other.object.tsx"],
+      "settings": {
+        "foreground": "#ACDDFD"
+      }
+    },
+    {
+      "name": "[JAVASCRIPT] - Variable Property",
+      "scope": ["variable.other.property.js"],
+      "settings": {
+        "foreground": "#0bf"
       }
     },
     {
@@ -641,7 +647,6 @@
         "foreground": "#888"
       }
     },
-    // Typescript ----------------------------------------------------------------------
     {
       "name": "Support Variable Property DOM",
       "scope": "support.variable.property.dom",
@@ -649,11 +654,13 @@
         "foreground": "#00AEFF"
       }
     },
+
+    // JSON ----------------------------------------------------------------------
     {
       "name": "[JSON] - Support",
       "scope": "source.json support",
       "settings": {
-        "foreground": "#fff"
+        "foreground": "#aaddff"
       }
     },
     {
@@ -665,7 +672,7 @@
         "punctuation.definition.string.begin.json"
       ],
       "settings": {
-        "foreground": "#a8f"
+        "foreground": "#bb88ff"
       }
     }
     // React -----------------------------------------------------------------------
