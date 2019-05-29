@@ -1,33 +1,38 @@
 {
-	"name": "framer-syntax",
-	"displayName": "Framer Syntax",
-	"description": "A color theme inspired by the Framer Editor",
-	"version": "1.0.0",
-	"publisher": "Framer",
-	"repository": "https://github.com/framer/syntax-vsc",
-	"engines": {
-		"vscode": "^1.21.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "logo.png",
-	"galleryBanner": {
-		"color": "#09F",
-		"theme": "dark"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Framer Syntax",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Framer Syntax-color-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "10c60029-820e-4bee-bbcb-58a5a9c2dc12",
-		"publisherDisplayName": "Framer",
-		"publisherId": "ef1eb1a4-fd05-4f69-9fda-3b0440a4176e"
-	}
+  "name": "framer-syntax",
+  "displayName": "Framer Syntax",
+  "description": "A color theme inspired by the Framer Editor",
+  "version": "1.1.0",
+  "publisher": "Framer",
+  "repository": "https://github.com/framer/syntax-vsc",
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#09F",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Framer Syntax Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Framer Syntax Night-color-theme.json"
+      },
+      {
+        "label": "Framer Syntax Day",
+        "uiTheme": "vs",
+        "path": "./themes/Framer Syntax Day-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "10c60029-820e-4bee-bbcb-58a5a9c2dc12",
+    "publisherDisplayName": "Framer",
+    "publisherId": "ef1eb1a4-fd05-4f69-9fda-3b0440a4176e"
+  }
 }

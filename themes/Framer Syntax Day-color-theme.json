@@ -1,6 +1,6 @@
 {
-  "name": "Framer Syntax",
-  "type": "dark",
+  "name": "Framer Syntax Day",
+  "type": "light",
   "colors": {
     "activityBar.background": "#111",
     "activityBar.border": "#111",
@@ -43,7 +43,7 @@
     "dropdown.border": "#2D2D2D",
     "dropdown.foreground": "#fff",
 
-    "editor.background": "#181818",
+    "editor.background": "#FDFDFD",
 
     "editor.foreground": "#fff",
 
@@ -76,7 +76,7 @@
     "editorError.border": "#2D2D2D",
     "editorError.foreground": "#e27e8d",
 
-    "editorGutter.background": "#181818",
+    "editorGutter.background": "#FDFDFD",
     "editorGutter.deletedBackground": "#e27e8d",
     "editorGutter.modifiedBackground": "#111",
 
@@ -89,7 +89,7 @@
 
     "editorHoverWidget.background": "#111",
     "editorHoverWidget.border": "#2d2d2d",
-    "editorIndentGuide.background": "#181818",
+    "editorIndentGuide.background": "#FDFDFD",
     "editorLineNumber.foreground": "#333",
     "editorLineNumber.activeForeground": "#777",
     "editorLink.activeForeground": "#888",
@@ -195,7 +195,7 @@
     "statusBarItem.activeBackground": "#09f",
     "statusBarItem.hoverBackground": "#333",
 
-    "tab.activeBackground": "#181818",
+    "tab.activeBackground": "#FDFDFD",
     "tab.activeForeground": "#fff",
     "tab.border": "#151515",
     "tab.inactiveBackground": "#151515",
@@ -209,7 +209,7 @@
     "textLink.activeForeground": "#00AEFF",
     "textPreformat.foreground": "#888",
     "textSeparator.foreground": "#888",
-    "titleBar.activeBackground": "#181818",
+    "titleBar.activeBackground": "#FDFDFD",
     "titleBar.activeForeground": "#fff",
     "titleBar.inactiveBackground": "#111",
     "titleBar.inactiveForeground": "#777",
